@@ -1,0 +1,132 @@
+body {
+  background-image: url(assets/rainbow-bg.jpg);
+  background-position: 46%;
+  font-family: 'Cormorant Upright', serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #000000;
+  text-align: center;
+}
+
+h1 {
+  font-size: 150px;
+  text-shadow:
+    0 0 92px #4DE1FF,
+    0 0 100px #4DE1FF,
+    0 0 120px #4DE1FF;
+  font-weight: Semi-bold 600;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 300px;
+  margin: auto;
+  padding: 13px;
+}
+
+h3 {
+  font-family: 'Red Hat Mono', monospace;
+  font-weight: 100;
+  font-size: 28px;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'Red Hat Mono', monospace;
+  font-kerning: 1px;
+  font-weight: bold;
+
+}
+
+P {
+  text-align: justify;
+  font-family: 'Red Hat Mono', monospace;
+  font-kerning: 1px;
+  font-weight: normal;
+  font-size: 25px;
+  color: #000000;
+}
+
+#moon-img {
+  padding: 0px;
+  margin: 15px;
+}
+
+.star-divide {
+  padding: 10px;
+  margin: 35px;
+}
+
+.about {
+  margin: 0px;
+}
+
+.reflection {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  padding: 0px;
+}
+
+.nav {
+  margin: 0px;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+.link-style {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #black;
+  font-family: 'Red Hat Mono', monospace;
+  font-kerning: 1px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-shadow:
+    0 0 20px #4DE1FF,
+    0 0 40px #4DE1FF,
+    0 0 45px #4DE1FF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.text {
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  padding: 0px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+  width: 350px;
+  margin: auto;
+  padding: 50px;
+}

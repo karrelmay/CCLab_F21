@@ -1,0 +1,14 @@
+body{
+  color: blue;
+}
+
+#box {
+background-color: rgb(126, 223, 39);
+width: auto;
+height: auto;
+
+position: absolute;
+left: 50px;
+top: 120px;
+
+}
