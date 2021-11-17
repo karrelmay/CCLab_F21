@@ -48,8 +48,8 @@ function setup() {
   // image assets
   imgBG = loadImage("assets/background.PNG");
   // imgButtonCall = loadImage("callButton.PNG");
-// imgButtonReset = loadImage("assets/resetButton.PNG");
-imgCounter = loadImage("assets/counter.PNG");
+  // imgButtonReset = loadImage("assets/resetButton.PNG");
+  imgCounter = loadImage("assets/counter.PNG");
 }
 
 function draw() {
@@ -326,11 +326,15 @@ class Slime {
 
 let = slimes = [];
 
-open.addEventListener('click', ()=> {modal_container.classList.add('show')} );
+open.addEventListener('click', () => {
+  modal_container.classList.add('show')
+});
 
-close.addEventListener('click', () => {modal_container.classList.remove('show')} );
+close.addEventListener('click', () => {
+  modal_container.classList.remove('show')
+});
 
-function mousePressed (){
+function mousePressed() {
 
   if (mouseX > 00 && mouseX < 900 && mouseY > 0 && mouseY < 600) {
     element = floor(random(0, 7));
@@ -412,13 +416,13 @@ function draw_hydro(x, y, a, s) {
   pop();
 
   push();
-  translate(x,y);
+  translate(x, y);
   noStroke();
   scale(s)
 
   fill(232, 250, 255, alpha)
-  ellipse(60,20, 15, 30);
-  ellipse(-60,20, 15, 30)
+  ellipse(60, 20, 15, 30);
+  ellipse(-60, 20, 15, 30)
   pop();
 }
 
