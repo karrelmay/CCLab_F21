@@ -1,7 +1,3 @@
-//INSTRUCTIONS --> read the console
-let instructions =
-  "Click anywhere to generate a random slime into your farm. \nThere is no endgame, just relax, observe the reactions, and grow your farm. \nRemember, slimes react to each other (and might produce babies).\n(o˘◡˘o)";
-
 //ASSETS
 let imgBG;
 let imgButtonReset;
@@ -37,11 +33,9 @@ let cryoColor = "#b4d7e8";
 let cryoHorn = "#f4faf6";
 
 function setup() {
-  createCanvas(900, 600);
+  let canvas = createCanvas(900, 600);
+  canvas.parent("canvas");
   angleMode(DEGREES);
-
-  //instructions
-  console.log(instructions);
 
   // image assets
   imgBG = loadImage("background.PNG");
