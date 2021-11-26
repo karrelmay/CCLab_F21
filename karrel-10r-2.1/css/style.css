@@ -77,8 +77,6 @@ body {
   justify-content: center;
 }
 
-.open-instructions {}
-
 #open {
   display: flex;
   position: absolute;
